@@ -1,0 +1,117 @@
+.clearflex {
+    *zoom: 1;
+}
+
+.clearflex:after {
+    content: '';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.fl-left {
+    float: left;
+}
+
+.fl-right {
+    float: right;
+}
+
+.mg {
+    margin: 10px !important;
+}
+
+.left-mg-xs {
+    margin-left: 6px !important;
+}
+
+.left-mg-sm {
+    margin-left: 10px !important;
+}
+
+.left-mg-md {
+    margin-left: 14px !important;
+}
+
+.top-mg-lg {
+    margin-top: 20px !important;
+}
+
+.tb-mg-lg {
+    margin: 20px 0 !important;
+}
+
+.bottom-mg-lg {
+    margin-bottom: 20px !important;
+}
+
+.left-mg-lg {
+    margin-left: 18px !important;
+}
+
+.title-1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.title-3 {
+    text-align: center;
+}
+
+
+// 自定义
+
+.merch-logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.shenfenzheng {
+    height: 40px;
+    border-radius: 50%;
+    width: 40px;
+    object-fit: cover;
+}
+
+.avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    display: block;
+    object-fit: cover;
+    margin-left: 12px;
+    border-radius: 50%;
+}
+
+.shifuTupian .avatar {
+    width: 100%;
+    height: 100%;
+}
+
+.touxiangPaixu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.el-tag {
+    white-space: pre-wrap;
+    height: auto;
+    margin-bottom: 2%;
+}
+
+.merchname {
+    font-size: 16px;
+    font-weight: bold;
+}
+
